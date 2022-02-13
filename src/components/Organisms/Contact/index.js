@@ -17,7 +17,7 @@ export default function Contact() {
             The best way to get in touch is via email, or you can check out my
             social links below as well.
           </p>
-          <div class="flex self-center pt-10">
+          <div class="flex self-center pt-10 sm:p-5">
             <div class="self-center">
               <div class="flex py-3">
                 <MdEmail size={40} />
