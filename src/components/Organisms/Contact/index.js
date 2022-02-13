@@ -17,17 +17,17 @@ export default function Contact() {
             The best way to get in touch is via email, or you can check out my
             social links below as well.
           </p>
-          <div class="flex self-center pt-10 sm:p-5">
+          <div class="flex flex-wrap self-center pt-10 sm:p-5">
             <div class="self-center">
               <div class="flex py-3">
                 <MdEmail size={40} />
-                <p class="py-1 text-3xl px-3">matthewsearle01@gmail.com</p>
+                <p class="py-1 text-2xl px-3">matthewsearle01@gmail.com</p>
               </div>
               <div class="flex py-3">
                 <FaLinkedin size={40} />
                 <a
                   href="https://www.linkedin.com/in/matthewsearle01"
-                  class="py-1 text-3xl px-3 flex"
+                  class="py-1 text-2xl px-3 flex"
                 >
                   LinkedIn
                 </a>
@@ -36,7 +36,7 @@ export default function Contact() {
                 <FaGithub size={40} />
                 <a
                   href="https://github.com/matthewsearle01"
-                  class="py-1 text-3xl px-3"
+                  class="py-1 text-2xl px-3"
                 >
                   GitHub
                 </a>

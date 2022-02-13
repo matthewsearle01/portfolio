@@ -46,13 +46,4 @@ export const projects = [
     gitlink: "https://github.com/iO-Academy/AcademyPortal",
     livelink: null,
   },
-  {
-    title: "React Calendar Component",
-    subtitle: "React Hooks, SASS, Heroku",
-    description:
-      "A React based Date Picker Component, utilising React Hooks, SASS, and the react-day-picker library.",
-    image: "./calendar-component.png",
-    gitlink: "https://github.com/matthewsearle01/react-calendar-component",
-    livelink: "https://react-calendar-component.herokuapp.com/",
-  },
 ];
