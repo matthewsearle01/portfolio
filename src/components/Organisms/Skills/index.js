@@ -13,10 +13,10 @@ import { SiPostman } from "react-icons/si";
 
 export default function Skills() {
   return (
-    <section id="skills" class="bg-white flex flex-col">
+    <section id="skills" class="background flex flex-col text">
       <div class="container mx-auto font-semibold">
         <div class="flex flex-col">
-          <h1 class="sm:text-4xl text-2xl font-bold title-font mb-4">Skills</h1>
+          <h1 class="sm:text-4xl text-2xl font-bold title-font mb-4"><span role="img" aria-label="fire-emoji">🔥</span> Skills</h1>
         </div>
         <div class="flex flex-wrap justify-evenly pb-5">
           <div class="flex flex-col items-center mx-2 md:mx-5 my-2 expand">

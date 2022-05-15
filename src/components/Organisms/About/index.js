@@ -1,12 +1,13 @@
 import React from "react";
+import laptop from "../../../images/laptop.svg";
 
 export default function About() {
   return (
-    <section id="about" class="bg-white flex flex-col py-4">
+    <section id="about" class="background flex flex-col py-4 text">
       <div className="container mx-auto">
         <div class="flex flex-col">
-          <h1 class="sm:text-4xl text-2xl font-bold title-font mt-5 mb-4 ">
-            About Me
+          <h1 class="sm:text-4xl text-2xl font-bold title-font mt-5 mb-4">
+          {'\u2728'} About Me
           </h1>
         </div>
         <div class="">
@@ -49,6 +50,12 @@ export default function About() {
           </p>
         </div>
       </div>
+      <img
+              src={laptop}
+              alt="a house plant"
+              width="400"
+              class="self-center"
+            />
     </section>
   );
 }

@@ -7,7 +7,7 @@ import "../../../styles.css";
 
 const AboutPage = () => {
   return (
-    <div class="min-h-full px-5">
+    <div class="min-h-full px-5 background">
       <Navbar />
       <About />
       <Skills />

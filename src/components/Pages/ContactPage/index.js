@@ -4,7 +4,7 @@ import Contact from "../../Organisms/Contact";
 
 const ContactPage = () => {
   return (
-    <div class="min-h-full px-5">
+    <div class="min-h-full px-5 background text">
       <Navbar />
       <Contact />
     </div>
